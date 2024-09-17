@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif;
+}
+
+.container {
+    width: min(100% - 32px, 1200px);
+    margin-inline: auto;
+    padding: 10px;
+}
+
+.firsth1 {
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #f4efab;
+    display: inline-block;
+}
+.firsth2{
+    font-size: 30px;
+    background-color:#f5f5dc;
+    display: inline-block;
+}
+.ssl{
+    font-size: 20pt;
+    margin: 10px;
+}
+
+.firsth3{
+    font-size: 30px;
+    background-color:#f5f5dc;
+    display: inline-block;
+}
+
+.secondh3{
+    font-size: 30px;
+    background-color:#f5f5dc;
+    display: inline-block;
+}
+
+.thirdh3{
+    font-size: 30px;
+    background-color:#f5f5dc;
+    display: inline-block;
+}
+
+.fourthh3{
+    font-size: 30px;
+    background-color:#f5f5dc;
+    display: inline-block; 
+}
+
+.fifthh3{
+    font-size: 30px;
+    background-color:#f5f5dc;
+    display: inline-block;
+}
+
+.sexh3{
+    font-size: 30px;
+    background-color:#f5f5dc;
+    display: inline-block;  
+}
+
+h3 {
+    margin-top: 80px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tls{
+    font-size: 20pt;
+    margin: 10px;
+}
+
+.webpage-secure{
+    font-size: 20pt;
+    margin: 10px;
+}
+
+.secure-meaning{
+    font-size: 20pt;
+    margin: 10px;
+}
+
+.encryption{
+    font-size: 20pt;
+    margin: 10px;
+}
+
+.prefixes-http{
+    font-size: 20pt;
+    margin: 10px;
+}
+
+.ssl-certificate{
+    font-size: 20pt;
+    margin: 10px;
+}
+p::before{
+    content: "•";
+    color: #005f73;
+    font-weight: bold;
+    margin-right: 5px;
+}
